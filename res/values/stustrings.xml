@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="title_activity_stu">Students</string>
+	<string name="input_stuName">Name</string>
+	<string name="input_stuEmail">Email</string>
+	<string name="input_stuNum">Student Number</string>
+	<string name="nav_modStu">Modify Student</string>
+	<string name="nav_addStu">Add Student</string><string name="stu_tab_names">Students</string><string name="stu_tab_marktable">Mark Table</string>
+	<string name="marks_spinner_prompt">Select assignment to modify</string>
+	<string name="button_set_unmarked">Unmarked</string>
+	<string name="checkbox_if_unmarked">Is Unmarked</string>
+	<string name="stu_tab_assignments">Assignments</string>
+	<string name="stu_tab_groups">Groups</string>
+	<string name="input_groupName">Group Name</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="nav_tutorials">Tutorials</string>
+    <string name="title_activity_tutorial">Tutorials</string>
+    <string name="title_activity_mod_tuts">Modify Tutorial</string>
+    <string name="input_tutName">Tutorial Name</string>
+    <string name="nav_modTut">Modify Tutorial</string>
+    <string name="tut_action_send_email">Send email to instructor</string>
+    <string name="tut_action_import_file">Import marks from file</string>
+    <string name="tut_action_add_session">Add session</string>
+    <string name="tut_action_del_session">Remove session</string>
+    <string name="button_setToday">Today</string>
+
+</resources>

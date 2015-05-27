@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="input_name">Name</string>
+    <string name="input_User">Username</string>
+    <string name="input_Pass">Password</string>
+    <string name="input_Server">Host Server</string>
+    <string name="input_port">Port</string>
+    <string name="input_sport">Socket Port</string>
+    
+</resources>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hash.taid"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.hash.taid.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hash.taid.ModCoursesActivity"
+            android:label="@string/title_activity_mod_courses"
+            android:parentActivityName="com.hash.taid.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hash.taid.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.hash.taid.TutorialActivity"
+            android:label="@string/title_activity_tutorial"
+            android:parentActivityName="com.hash.taid.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hash.taid.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.hash.taid.ModTutsActivity"
+            android:label="@string/title_activity_mod_tuts"
+            android:parentActivityName="com.hash.taid.TutorialActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hash.taid.TutorialActivity" />
+        </activity>
+        <activity
+            android:name="com.hash.taid.StuActivity"
+            android:label="@string/title_activity_stu"
+            android:parentActivityName="com.hash.taid.TutorialActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hash.taid.TutorialActivity" />
+        </activity>
+        <activity
+            android:name="com.hash.taid.ModStuActivity"
+            android:label="@string/title_activity_mod_stu"
+            android:parentActivityName="com.hash.taid.TabStuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hash.taid.TabStuActivity" />
+        </activity>
+        <activity
+            android:name="com.hash.taid.AddStuActivity"
+            android:label="@string/title_activity_add_stu"
+            android:parentActivityName="com.hash.taid.TabStuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hash.taid.TabStuActivity" />
+        </activity>
+        <activity
+            android:name="com.hash.taid.dialogue.TutDelAssignmentActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/title_activity_tut_del_assignment"
+            android:parentActivityName="com.hash.taid.TabStuActivity"
+            android:theme="@android:style/Theme.Dialog" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hash.taid.TabStuActivity" />
+        </activity>
+        <activity
+            android:name="com.hash.taid.TabStuActivity"
+            android:label="@string/title_activity_tab_stu"
+            android:parentActivityName="com.hash.taid.TutorialActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hash.taid.TutorialActivity" />
+        </activity>
+        <activity
+            android:name="com.hash.taid.ModMarksActivity"
+            android:label="@string/title_activity_mod_marks"
+            android:parentActivityName="com.hash.taid.TabStuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hash.taid.TabStuActivity" />
+        </activity>
+        <activity
+            android:name="com.hash.taid.dialogue.TutAddAssignmentActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/title_activity_add_assignment"
+            android:parentActivityName="com.hash.taid.TabStuActivity"
+            android:theme="@android:style/Theme.Dialog" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hash.taid.TabStuActivity" />
+        </activity>
+        <activity
+            android:name="com.hash.taid.AddAssignmentActivity"
+            android:label="@string/title_activity_add_assignment"
+            android:parentActivityName="com.hash.taid.TabStuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hash.taid.TabStuActivity" />
+        </activity>
+        <activity
+            android:name="com.hash.taid.ModAssignmentActivity"
+            android:label="@string/title_activity_mod_assignment"
+            android:parentActivityName="com.hash.taid.TabStuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hash.taid.TabStuActivity" />
+        </activity>
+        <activity
+            android:name="com.hash.taid.assignment.TabModAssignmentActivity"
+            android:label="@string/title_activity_tab_mod_assignment"
+            android:parentActivityName="com.hash.taid.TabStuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hash.taid.TabStuActivity" />
+        </activity>
+        <activity
+            android:name="com.hash.taid.AddGroupActivity"
+            android:label="@string/title_activity_add_group"
+            android:parentActivityName="com.hash.taid.TabStuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hash.taid.TabStuActivity" />
+        </activity>
+        <activity
+            android:name="com.hash.taid.ModGroupActivity"
+            android:label="@string/title_activity_mod_group"
+            android:parentActivityName="com.hash.taid.TabStuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hash.taid.TabStuActivity" />
+        </activity>
+        <activity
+            android:name="com.hash.taid.ModGroupMarkActivity"
+            android:label="@string/title_activity_mod_group_mark"
+            android:parentActivityName="com.hash.taid.TabStuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hash.taid.TabStuActivity" />
+        </activity>
+        <activity
+            android:name="com.hash.taid.FileChooserActivity"
+            android:label="@string/tut_action_import_file"
+            android:parentActivityName="com.hash.taid.TabStuActivity" >
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.Dialog"
+            android:excludeFromRecents="true"
+            android:name="com.hash.taid.DelSessionDialogActivity"
+            android:label="@string/title_activity_add_session_dialog"
+            android:parentActivityName="com.hash.taid.TabStuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.hash.taid.TabStuActivity" />
+        </activity>
+        <activity
+            android:name="com.hash.taid.ModUserActivity"
+            android:label="@string/action_settings" >
+        </activity>
+        <activity
+            android:name="com.hash.taid.MemoActivity"
+            android:label="@string/title_activity_memo" >
+        </activity>
+        <activity
+            android:name="com.hash.taid.MemoAct"
+            android:label="@string/title_activity_memo" >
+        </activity>
+    </application>
+
+</manifest>

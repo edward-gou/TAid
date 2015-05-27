@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tile_background">#d0d0d0</color>
+    <color name="tile_foreground">#656565</color>
+    <color name="tile_foreground_selected">#7bacd0</color>
+    <color name="tile_background_selected">#c4d4df</color>
+    <color name="tile_foreground_text">#606060</color>
+    
+</resources>

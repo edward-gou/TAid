@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><string name="input_assignmentName">Assignment Name</string>
+<string name="input_assignmentMaxMark">Maximum Mark</string>
+<string name="input_ifGroupAssignment">Is a group assignment</string>
+    
+</resources>
